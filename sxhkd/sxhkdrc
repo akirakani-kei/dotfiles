@@ -16,7 +16,7 @@ super + a
 
 # spotify
 super + q
-	spotify
+	LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 
 # discord
 super + d
