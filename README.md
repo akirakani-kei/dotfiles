@@ -37,5 +37,10 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 **resource monitor**    | bashtop
 **ide font**            | jetbrains mono
 **symbol font**         | siji-git (aur)
-**wallpaper app**       | nitrogen
+**wallpapers**          | nitrogen
 **background**          | #151515
+
+-----
+
+**Running *install.sh* will install the following packages:** <br> <br>
+`bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-poppler alacritty dmenu alacritty nitrogen bashtop`
