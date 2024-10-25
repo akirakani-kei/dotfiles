@@ -42,5 +42,46 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 
 -----
 
-**Running *install.sh* will install the following packages:** <br> <br>
-`bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-poppler alacritty dmenu alacritty nitrogen bashtop`
+## Manual installation
+
+*1. Clone the repository and cd into its directory* <br>
+```shell
+git clone https://github.com/akirakani-kei/dotfiles/
+cd dotfiles
+```
+*2. Move all configuration files into their respective .config directories (following the example below)* <br>
+```shell
+mkdir ~/.config/bspwm  # in case directory doesn't exist
+mv bspwmrc ~/.config/bspwm/
+```
+*3. Add execute permissions to each configuration file* <br>
+```shell
+chmod +x ~/.config/bspwm/bspwmrc
+```
+
+***Repeat 2. & 3. for all needed configuration files.***
+<br>
+
+-----
+## Automatic installation
+
+*1. Clone the repository and cd into its directory* <br>
+```shell
+git clone https://github.com/akirakani-kei/dotfiles/
+cd dotfiles
+```
+
+*2. Add execute permissions to install.sh* <br>
+```shell
+chmod +x install.sh
+```
+
+*3. Run the installation script* <br>
+```shell
+./install.sh
+```
+<br> 
+
+**Running *install.sh* (if prompted) will install the following packages:**
+<br> <br>
+`bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-pdf-poppler alacritty dmenu alacritty nitrogen bashtop`
