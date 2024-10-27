@@ -85,3 +85,6 @@ chmod +x install.sh
 **Running *install.sh* (if prompted) will install the following packages:**
 <br> <br>
 `bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-pdf-poppler alacritty dmenu alacritty nitrogen bashtop`
+<br> <br>
+*Installing required packages/fonts **ONLY** works if you're on Arch or an Arch-based distro. (hit enter otherwise)*
+
