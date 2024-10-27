@@ -1,5 +1,6 @@
 # arch only
 
+echo "Installing required packages/fonts ONLY works if you're on Arch or an Arch-based distro. (hit enter otherwise)"
 read -r -p "Would you like to install ALL packages required for the configuration? (listed in README) [y/N]: " response
 response=${response,,}
 if [[ "$response" =~ ^(yes|y)$ ]]; then
