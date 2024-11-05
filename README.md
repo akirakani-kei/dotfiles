@@ -31,7 +31,8 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 **compositor**          | picom
 **file manager**        | thunar/ranger
 **pdf reader**          | zathura
-**browser**             | firefox (homepage: nighttab)
+**browser**             | firefox
+**extension**           | nighttab
 **terminal**            | alacritty
 **audio visualiser**    | cava
 **resource monitor**    | bashtop
