@@ -42,6 +42,23 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 
 -----
 
+## Automatic installation
+
+*Run the installation script* <br>
+```shell
+sh -c "$(curl -sS https://raw.githubusercontent.com/akirakani-kei/dotfiles/refs/heads/main/install.sh)"
+```
+
+<br>
+
+**Running *install.sh* (if prompted) will install the following packages:**
+<br> <br>
+`bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-pdf-poppler alacritty dmenu alacritty nitrogen bashtop`
+<br> <br>
+*Installing required packages/fonts **ONLY** works if you're on Arch or an Arch-based distro. (hit enter otherwise)*
+
+-----
+
 ## Manual installation
 
 *1. Clone the repository and cd into its directory* <br>
@@ -61,30 +78,4 @@ chmod +x ~/.config/bspwm/bspwmrc
 
 ***Repeat 2. & 3. for all needed configuration files.***
 <br>
-
------
-## Automatic installation
-
-*1. Clone the repository and cd into its directory* <br>
-```shell
-git clone https://github.com/akirakani-kei/dotfiles/
-cd dotfiles
-```
-
-*2. Add execute permissions to install.sh* <br>
-```shell
-chmod +x install.sh
-```
-
-*3. Run the installation script* <br>
-```shell
-./install.sh
-```
-<br> 
-
-**Running *install.sh* (if prompted) will install the following packages:**
-<br> <br>
-`bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-pdf-poppler alacritty dmenu alacritty nitrogen bashtop`
-<br> <br>
-*Installing required packages/fonts **ONLY** works if you're on Arch or an Arch-based distro. (hit enter otherwise)*
 
