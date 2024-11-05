@@ -13,33 +13,25 @@ fi
 
 
 cd ~/.config
-mkdir bspwm
-mkdir sxhkd
-mkdir zathura
-mkdir polybar
+mkdir bspwm sxhkd zathura polybar
 
 git clone https://github.com/akirakani-kei/dotfiles
 cd dotfiles
 mv .xinitrc ~
 cd ~/.config
-mv dotfiles/bspwmrc bspwm/
-mv dotfiles/sxhkdrc sxhkd/
-mv dotfiles/zathurarc zathura/
-mv dotfiles/polybar/launch.sh polybar/
-mv dotfiles/polybar/config polybar/
+mv dotfiles/bspwmrc bspwm
+mv dotfiles/sxhkdrc sxhkd
+mv dotfiles/zathurarc zathura
+mv dotfiles/polybar/launch.sh polybar
+mv dotfiles/polybar/config polybar
 
-cd ~/.config/bspwm
-chmod +x bspwmrc
-cd ~/.config/sxhkd
-chmod +x sxhkdrc
-cd ~/.config/polybar
-chmod +x launch.sh
-chmod +x config
-cd ~/.config/zathura
-chmod +x zathurarc
+chmod +x ~/.config/bspwm/bspwmrc
+chmod +x ~/.config/sxhkd/sxhkdrc
+chmod +x ~/.config/polybar/launch.sh
+chmod +x ~/.config/polybar/config
+chmod +x ~/.config/zathura/zathurarc
 
-cd ~/.config
-rm -rf dotfiles
+rm -rf ~/.config/dotfiles
 
 clear
 
