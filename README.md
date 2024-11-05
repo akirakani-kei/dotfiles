@@ -46,7 +46,7 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 
 *Run the installation script* <br>
 ```shell
-sh -c "$(curl -sS https://raw.githubusercontent.com/akirakani-kei/dotfiles/refs/heads/main/install.sh)"
+bash <(curl -s https://raw.githubusercontent.com/akirakani-kei/dotfiles/refs/heads/main/install.sh)
 ```
 
 <br>
