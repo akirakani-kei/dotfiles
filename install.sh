@@ -2,13 +2,13 @@ echo "Installing required packages/fonts ONLY works if you're on Arch or an Arch
 read -r -p "Would you like to install ALL packages required for the configuration? (listed in README) [y/N]: " response
 response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
 if [ "$response" = "y" ] || [ "$response" = "yes" ]; then
-    sudo pacman -S bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-poppler alacritty dmenu nitrogen bashtop
+    sudo pacman -S bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-pdf-poppler alacritty dmenu nitrogen bashtop
 fi
 
 read -r -p "Would you like to install required fonts? [y/N]: " response
 response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
 if [ "$response" = "y" ] || [ "$response" = "yes" ]; then
-    yay -S siji-git ttf-jetbrains-mono
+    yay -S siji-git ttf-jetbrains-mono ttf-meslo
 fi
 
 
