@@ -9,11 +9,16 @@ read -r -p "Would you like to install required fonts? [y/N]: " response
 response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
 if [ "$response" = "y" ] || [ "$response" = "yes" ]; then
     yay -S siji-git ttf-jetbrains-mono ttf-meslo
+    sudo pacman -S nerds-font
 fi
 
+if [ ! -d "$HOME/.config" ]; then
+  mkdir -p "$HOME/.config"
 
 cd ~/.config
-mkdir bspwm sxhkd zathura polybar alacritty
+mkdir bspwm sxhkd zathura polybar alacritty nvim
+
+git clone https://github.com/NvChad/starter nvim
 
 git clone https://github.com/akirakani-kei/dotfiles
 cd dotfiles
@@ -36,7 +41,5 @@ chmod +x ~/.config/zathura/zathurarc
 chmod +x ~/.config/alacritty/alacritty.toml
 
 rm -rf ~/.config/dotfiles
-
-clear
 
 echo "Installation complete."
