@@ -31,6 +31,7 @@ mv dotfiles/rewind.sh sxhkd
 mv dotfiles/zathurarc zathura
 mv dotfiles/polybar/launch.sh polybar
 mv dotfiles/polybar/config polybar
+mv dotfiles/substrata.vim nvim
 
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/sxhkd/sxhkdrc
