@@ -83,7 +83,7 @@ type = custom/script
 exec = sh -c "cat /sys/class/drm/card1/device/gpu_busy_percent || echo 0"
 interval = 1
 format = <label>
-label =  %output%%
+label =  %output%%
 
 ;------------------
 
