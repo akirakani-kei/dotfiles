@@ -22,12 +22,14 @@ cd ~/.config
 mv dotfiles/bspwmrc bspwm
 mv dotfiles/alacritty.toml alacritty
 mv dotfiles/sxhkdrc sxhkd
+mv dotfiles/rewind.sh sxhkd
 mv dotfiles/zathurarc zathura
 mv dotfiles/polybar/launch.sh polybar
 mv dotfiles/polybar/config polybar
 
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/sxhkd/sxhkdrc
+chmod +x ~/.config/sxhkd/rewind.sh
 chmod +x ~/.config/polybar/launch.sh
 chmod +x ~/.config/polybar/config
 chmod +x ~/.config/zathura/zathurarc
@@ -38,6 +40,3 @@ rm -rf ~/.config/dotfiles
 clear
 
 echo "Installation complete."
-
-#Running *install.sh* (if prompted) will install the following packages
-#bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-poppler firefox alacritty dmenu nitrogen bashtop
