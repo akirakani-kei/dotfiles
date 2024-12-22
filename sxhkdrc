@@ -154,6 +154,10 @@ XF86AudioNext
 XF86AudioPrev
 	playerctl previous
 
+# rewind
+XF86AudioRewind
+    	~/.config/sxhkd/rewind.sh
+
 # stop
 XF86AudioStop
 	playerctl stop
