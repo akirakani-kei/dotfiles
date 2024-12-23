@@ -26,8 +26,8 @@ mv .xinitrc ~
 cd ~/.config
 mv dotfiles/bspwmrc bspwm
 mv dotfiles/alacritty.toml alacritty
-mv dotfiles/sxhkdrc sxhkd
-mv dotfiles/rewind.sh sxhkd
+mv dotfiles/sxhkd/sxhkdrc sxhkd
+mv dotfiles/sxhkd/rewind.sh sxhkd
 mv dotfiles/zathurarc zathura
 mv dotfiles/polybar/launch.sh polybar
 mv dotfiles/polybar/config polybar
