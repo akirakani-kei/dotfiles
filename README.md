@@ -4,9 +4,9 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 
 ## Screenshots
 
-![1](https://github.com/user-attachments/assets/093089d0-15a2-49a2-ba2e-4d64921ffdf1)
+![image](https://github.com/user-attachments/assets/d9d109c1-9ac7-4128-85b8-2d1a268eb828)
 
-![2](https://github.com/user-attachments/assets/bd1ccc59-8821-4b5e-8b86-e6a901776244)
+![image](https://github.com/user-attachments/assets/0fcb82f2-e5ad-4b1d-b6a0-9cffa3dc0ac9)
 
 ![3](https://github.com/user-attachments/assets/97c40fa5-1833-482c-bd27-cfa55c9c8054)
 
