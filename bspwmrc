@@ -4,7 +4,6 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 xrandr --dpi 81 &
 #~/.fehbg &
 picom &
-nvidia-settings --load-config-only &
 xset m 0 0 &
 #xinput --set-prop 8 "libinput Accel Speed" -0.7 &
 $HOME/.config/polybar/launch.sh
