@@ -16,9 +16,6 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 
 ![8](https://github.com/user-attachments/assets/ad0eb6c6-35ba-4b21-8eed-ecf8e1cf7ad1)
 
-*vsc theme - [rainglow](https://vscodethemes.com/e/daylerees.rainglow/carbonight-contrast-rainglow?language=javascript)*
-
-![6](https://github.com/user-attachments/assets/60242136-69b3-4c10-9a62-6052be96de59)
 
 -----
 
@@ -26,7 +23,7 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 ------------------------|-----------------------
 **distro**              | arch
 **wm**                  | bspwm
-**ide**                 | vscode
+**ide**                 | nvchad
 **bar**                 | polybar
 **compositor**          | picom
 **file manager**        | thunar/ranger
@@ -37,7 +34,7 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 **audio visualiser**    | cava
 **resource monitor**    | bashtop
 **ide font**            | jetbrains mono
-**symbol font**         | siji-git (aur)
+**symbol font**         | siji
 **wallpapers**          | nitrogen
 **background**          | #151515
 
@@ -54,7 +51,7 @@ curl -s https://raw.githubusercontent.com/akirakani-kei/dotfiles/refs/heads/main
 
 **Running *install.sh* (if prompted) will install the following packages:**
 <br> <br>
-`bspwm xorg-server xorg-xinit xorg-xsetroot sxhkd code polybar picom thunar ranger zathura zathura-pdf-poppler alacritty dmenu alacritty nitrogen bashtop`
+`bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler alacritty dmenu alacritty nitrogen bashtop`
 <br> <br>
 *Installing required packages/fonts **ONLY** works if you're on Arch or an Arch-based distro. (hit enter otherwise)*
 
@@ -79,4 +76,3 @@ chmod +x ~/.config/bspwm/bspwmrc
 
 ***Repeat 2. & 3. for all needed configuration files.***
 <br>
-
