@@ -6,13 +6,7 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 
 ![image](https://github.com/user-attachments/assets/d9d109c1-9ac7-4128-85b8-2d1a268eb828)
 
-![image](https://github.com/user-attachments/assets/0fcb82f2-e5ad-4b1d-b6a0-9cffa3dc0ac9)
-
-![3](https://github.com/user-attachments/assets/97c40fa5-1833-482c-bd27-cfa55c9c8054)
-
-![5](https://github.com/user-attachments/assets/49f48bae-ca9a-4e23-a3e9-3b9836ed13ef)
-
-![10](https://github.com/user-attachments/assets/a27a6e70-ba59-4a95-9c4b-f91b5618a4b6)
+![image](https://github.com/user-attachments/assets/2c4ffa84-03a4-4587-8551-fba234395563)
 
 ![8](https://github.com/user-attachments/assets/ad0eb6c6-35ba-4b21-8eed-ecf8e1cf7ad1)
 
@@ -23,17 +17,14 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 ------------------------|-----------------------
 **distro**              | arch
 **wm**                  | bspwm
-**ide**                 | nvchad
+**ide**                 | nvim
 **bar**                 | polybar
 **compositor**          | picom
-**file manager**        | thunar/ranger
-**pdf reader**          | zathura
-**browser**             | firefox
-**extension**           | nighttab
-**terminal**            | alacritty
-**audio visualiser**    | cava
-**resource monitor**    | bashtop
-**ide font**            | jetbrains mono
+**file manager**        | ranger
+**pdfs**                | zathura
+**terminal**            | kitty
+**res mon**             | bashtop
+**font**                | jetbrains mono
 **symbol font**         | siji
 **wallpapers**          | nitrogen
 **background**          | #151515
