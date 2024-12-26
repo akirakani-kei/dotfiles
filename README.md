@@ -51,7 +51,7 @@ curl -s https://raw.githubusercontent.com/akirakani-kei/dotfiles/refs/heads/main
 
 **Running *install.sh* (if prompted) will install the following packages:**
 <br> <br>
-`bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler alacritty dmenu alacritty nitrogen bashtop`
+`bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler kitty dmenu nitrogen bashtop maim`
 <br> <br>
 *Installing required packages/fonts **ONLY** works if you're on Arch or an Arch-based distro. (hit enter otherwise)*
 
