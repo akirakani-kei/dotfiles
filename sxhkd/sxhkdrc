@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty
+	kitty
 
 # program launcher
 super + @space
@@ -24,15 +24,15 @@ super + d
 
 #nvim
 super + e
-	alacritty -e nvim
+	kitty -e nvim
 
 #ranger
 super + r
-	alacritty -e ranger
+	kitty -e ranger
 
 # bashtop
 ctrl + shift + Escape
-	alacritty -e bashtop
+	kitty -e bashtop
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -176,9 +176,11 @@ XF86AudioLowerVolume
 # screenshot screen
 
 Print
-    scrot -e '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f && rm $f'
+    maim | tee ~/$(date +%s).png | xclip -selection clipboard -t image/png && rm ~/$(date +%s).png
+# scrot -e '~/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f && rm $f'
 shift + Print
-    scrot -s -e '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f && rm $f'
+    maim -s | tee ~/$(date +%s).png | xclip -selection clipboard -t image/png && rm ~/$(date +%s).png
+# scrot -s -e '~/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f && rm $f'
 
 #mic monitor
 
