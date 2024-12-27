@@ -14,6 +14,7 @@ fi
 
 if [ ! -d "$HOME/.config" ]; then
   mkdir -p "$HOME/.config"
+fi
 
 cd ~/.config
 mkdir -p bspwm sxhkd zathura polybar kitty nvim
