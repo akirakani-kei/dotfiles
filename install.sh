@@ -16,20 +16,19 @@ if [ ! -d "$HOME/.config" ]; then
   mkdir -p "$HOME/.config"
 
 cd ~/.config
-mkdir bspwm sxhkd zathura polybar kitty nvim
+mkdir -p bspwm sxhkd zathura polybar kitty nvim
 
 git clone https://github.com/akirakani-kei/dotfiles
 cd dotfiles
 mv .xinitrc ~
 cd ~/.config
-mv dotfiles/bspwmrc bspwm
-mv dotfiles/kitty.conf kitty
-mv dotfiles/sxhkd/sxhkdrc sxhkd
-mv dotfiles/sxhkd/rewind.sh sxhkd
-mv dotfiles/zathurarc zathura
-mv dotfiles/polybar/launch.sh polybar
-mv dotfiles/polybar/config polybar
-mv dotfiles/substrata.vim nvim
+mv -f dotfiles/bspwmrc bspwm
+mv -f dotfiles/kitty.conf kitty
+mv -f dotfiles/sxhkd/sxhkdrc sxhkd
+mv -f dotfiles/sxhkd/rewind.sh sxhkd
+mv -f dotfiles/zathurarc zathura
+mv -f dotfiles/polybar/launch.sh polybar
+mv -f dotfiles/polybar/config polybar
 
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/sxhkd/sxhkdrc
