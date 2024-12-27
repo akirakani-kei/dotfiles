@@ -177,11 +177,8 @@ XF86AudioLowerVolume
 
 Print
     maim | tee ~/$(date +%s).png | xclip -selection clipboard -t image/png && rm ~/$(date +%s).png
-# scrot -e '~/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f && rm $f'
 shift + Print
-    maim -s | tee ~/$(date +%s).png | xclip -selection clipboard -t image/png && rm ~/$(date +%s).png
-# scrot -s -e '~/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f && rm $f'
-
+    filename=~/$(date +%s).png; maim -s | tee "$filename" | xclip -selection clipboard -t image/png && sleep 5 && rm "$filename"    
 #mic monitor
 
 super + z
