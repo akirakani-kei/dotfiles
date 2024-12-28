@@ -6,7 +6,12 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 
 ![image](https://github.com/user-attachments/assets/d9d109c1-9ac7-4128-85b8-2d1a268eb828)
 
+![image](https://github.com/user-attachments/assets/d5be99c6-5f15-424c-9eb1-f49359a2b07c)
+
 ![image](https://github.com/user-attachments/assets/2c4ffa84-03a4-4587-8551-fba234395563)
+
+![image](https://github.com/user-attachments/assets/2ca33859-1702-43dc-b7b1-d4d8674db207)
+
 
 ![8](https://github.com/user-attachments/assets/ad0eb6c6-35ba-4b21-8eed-ecf8e1cf7ad1)
 
@@ -17,16 +22,16 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 ------------------------|-----------------------
 **distro**              | arch
 **wm**                  | bspwm
-**ide**                 | nvim
-**bar**                 | polybar
 **compositor**          | picom
+**bar**                 | polybar
+**launcher**            | dmenu
+**terminal**            | kitty
+**ide**                 | nvim
 **file manager**        | ranger
 **pdfs**                | zathura
-**terminal**            | kitty
 **res mon**             | bashtop
 **font**                | jetbrains mono
 **symbol font**         | siji
-**wallpapers**          | nitrogen
 **background**          | #151515
 
 -----
