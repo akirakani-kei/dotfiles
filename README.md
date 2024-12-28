@@ -43,8 +43,9 @@ sh -c "$(curl -sS https://raw.githubusercontent.com/akirakani-kei/dotfiles/refs/
 > *Your current configuration files might be **overwritten**.* <br> *Installing required packages/fonts **ONLY** works if you're on Arch or an Arch-based distro. (hit enter otherwise)*
 
 > [!IMPORTANT]
-> *Running *install.sh* (if prompted) will install the following packages:* <br>
-`bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler kitty dmenu nitrogen bashtop maim`
+> *Running *install.sh*, if prompted, will install the following packages:* <br>
+`bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler kitty dmenu nitrogen bashtop maim`; <br>
+> as well as my [nvim configuration](https://github.com/akirakani-kei/nvim-conf).
 
 ### Manual installation
 
