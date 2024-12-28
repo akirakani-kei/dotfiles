@@ -16,14 +16,8 @@ if [ ! -d "$HOME/.config" ]; then
   mkdir -p "$HOME/.config"
 fi
 
-read -r -p "Would you like to install my nvim configuration? [y/N]: " response
-response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
-if [ "$response" = "y" ] || [ "$response" = "yes" ]; then
-    sh -c "$(curl -sS https://raw.githubusercontent.com/akirakani-kei/nvim-conf/refs/heads/main/nvim-install.sh)"
-fi
-
 cd ~/.config
-mkdir -p bspwm sxhkd zathura polybar kitty nvim
+mkdir -p bspwm sxhkd zathura polybar kitty
 
 git clone https://github.com/akirakani-kei/dotfiles
 cd dotfiles
@@ -48,3 +42,9 @@ chmod +x ~/.config/kitty/kitty.conf
 rm -rf ~/.config/dotfiles
 
 echo "Installation complete."
+
+read -r -p "Would you also like to install my neovim configuration? [y/N]: " response
+response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
+if [ "$response" = "y" ] || [ "$response" = "yes" ]; then
+    sh -c "$(curl -sS https://raw.githubusercontent.com/akirakani-kei/nvim-conf/refs/heads/main/nvim-install.sh)"
+fi
