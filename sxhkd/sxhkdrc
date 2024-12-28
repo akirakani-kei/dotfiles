@@ -174,25 +174,18 @@ XF86AudioLowerVolume
 	pamixer -d 5	
 
 # screenshot screen
-
 Print
     maim | tee ~/$(date +%s).png | xclip -selection clipboard -t image/png && rm ~/$(date +%s).png
 shift + Print
     filename=~/$(date +%s).png; maim -s | tee "$filename" | xclip -selection clipboard -t image/png && sleep 5 && rm "$filename"    
-#mic monitor
 
+#mic monitor
 super + z
 	pactl load-module module-loopback latency_msec=1
 
 super + x
 	pactl unload-module module-loopback
 
-# screenshot screenshot screenshot
-
-#super + shift + s
-#	scrot -s -e 'xclip -selection clipboard -t image/png -i $f'
-
 # clear clipboard
-
 super + shift + s
 	xsel -bc
