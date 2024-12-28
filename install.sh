@@ -5,7 +5,7 @@ if [ "$response" = "y" ] || [ "$response" = "yes" ]; then
     sudo pacman -S bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler kitty dmenu nitrogen bashtop maim
 fi
 
-read -r -p "Would you like to install required fonts? [y/N]: " response
+read -r -p "Would you like to install required fonts? (needs yay) [y/N]: " response
 response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
 if [ "$response" = "y" ] || [ "$response" = "yes" ]; then
     yay -S siji-git ttf-jetbrains-mono ttf-meslo
@@ -42,7 +42,7 @@ chmod +x ~/.config/kitty/kitty.conf
 rm -rf ~/.config/dotfiles
 
 echo "Installation complete."
-
+echo
 read -r -p "Would you also like to install my neovim configuration? [y/N]: " response
 response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
 if [ "$response" = "y" ] || [ "$response" = "yes" ]; then
