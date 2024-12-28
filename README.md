@@ -31,8 +31,9 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 
 
 
-## Automatic installation
+## Installation
 
+### Automatic installation
 *Run the installation script.* <br>
 ```shell
 sh -c "$(curl -sS https://raw.githubusercontent.com/akirakani-kei/dotfiles/refs/heads/main/install.sh)"
@@ -45,8 +46,7 @@ sh -c "$(curl -sS https://raw.githubusercontent.com/akirakani-kei/dotfiles/refs/
 > *Running *install.sh* (if prompted) will install the following packages:* <br>
 `bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler kitty dmenu nitrogen bashtop maim`
 
-
-## Manual installation
+### Manual installation
 
 *1. Clone the repository and change into its directory* <br>
 ```shell
@@ -78,17 +78,19 @@ chmod +x ~/.config/bspwm/bspwmrc
   <tr><td>spotify</td><td>music player</td></tr>
   <tr><td>dmenu</td><td>app launcher</td></tr>
   <tr><td>zathura</td><td>pdf viewer</td></tr>
-  <tr><td>firefox</td><td>browser</td></tr></table>
+  <tr><td>firefox</td><td>browser</td></tr>
+  <tr><td>nitrogen</td><td>wallpaper daemon</td></tr>
+  <tr><td>maim</td><td>screenshot tool</td></tr>
+  <tr><td>polybar</td><td>bar tool</td></tr>
+  <tr><td>res mon</td><td>bashtop</td></tr>
+  </table>
 </td></tr></table>
 
 <br>
 
 <table><tr><td>
   <code>r</code><br><code>i</code><br><code>c</code><br><code>e</code><br></td><td><table>
-  <tr><td>nitrogen</td><td>wallpaper daemon</td></tr>
-  <tr><td>maim</td><td>screenshot tool</td></tr>
-  <tr><td>polybar</td><td>bar tool</td></tr>
-  <tr><td>res mon</td><td>bashtop</td></tr>
+
 </td></tr></table>
 
 <br>
@@ -105,7 +107,9 @@ chmod +x ~/.config/bspwm/bspwmrc
 <table><tr><td>
   <code>e</code><br><code>t</code><br><code>c</code></td><td><table>
   <tr><td>pulseaudio</td><td>audio</td></tr>
-  <tr><td>networkmanager</td><td>manages network</td></tr></table>
+  <tr><td>networkmanager</td><td>manages network</td></tr>
+  <tr><td>wallpaper</td><td>#151515</td></tr>
+  </table>
 </td></tr></table>
 
 <br>
