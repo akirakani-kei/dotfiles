@@ -22,6 +22,8 @@ original config made almost entirely by [7USTIN](https://github.com/7USTIN/dotfi
 
 ![image](https://github.com/user-attachments/assets/2ca33859-1702-43dc-b7b1-d4d8674db207)
 
+![image](https://github.com/user-attachments/assets/44b1fb91-6212-4a72-b7c3-9fe48beaafc2)
+
 
 ![8](https://github.com/user-attachments/assets/ad0eb6c6-35ba-4b21-8eed-ecf8e1cf7ad1)
 
