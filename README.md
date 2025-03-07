@@ -46,7 +46,7 @@ sh -c "$(curl -sS https://raw.githubusercontent.com/akirakani-kei/dotfiles/refs/
 
 > [!IMPORTANT]
 > *Running *install.sh*, if prompted, will install the following packages:* <br>
-`bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler kitty dmenu nitrogen bashtop maim`; <br>
+`bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler kitty dmenu nitrogen bashtop neovim maim`; <br>
 > as well as my [nvim configuration](https://github.com/akirakani-kei/nvim-conf).
 
 ### Manual installation
