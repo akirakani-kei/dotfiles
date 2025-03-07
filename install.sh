@@ -2,7 +2,7 @@ echo "Installing required packages/fonts ONLY works if you're on Arch or an Arch
 read -r -p "Would you like to install ALL packages required for the configuration? (listed in README) [y/N]: " response
 response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
 if [ "$response" = "y" ] || [ "$response" = "yes" ]; then
-    sudo pacman -S bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler kitty dmenu nitrogen bashtop maim
+    sudo pacman -S bspwm xorg-server xorg-xinit xorg-xsetroot playerctl pamixer sxhkd polybar picom thunar ranger zathura zathura-pdf-poppler kitty dmenu nitrogen bashtop maim neovim
 fi
 
 read -r -p "Would you like to install required fonts? (needs yay) [y/N]: " response
